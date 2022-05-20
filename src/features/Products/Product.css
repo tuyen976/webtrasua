@@ -1,0 +1,82 @@
+.ProductPage {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+.ProductPage h2 {
+  color: rgb(255, 115, 22);
+  font-size: 30px;
+  text-align: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.produts-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+.produts-item:hover {
+  color: rgb(255, 138, 43);
+  font-weight: 600;
+  cursor: pointer;
+}
+.produts-item-2:hover {
+  color: rgb(255, 138, 43);
+  font-weight: 600;
+  cursor: pointer;
+}
+.produts-item-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-weight: 600;
+}
+.produst-img img {
+  width: 200px;
+  height: 200px;
+}
+.product-info {
+  text-align: center;
+}
+.product-info button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(255, 138, 43);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.product-info button:hover {
+  background-color: rgb(250, 67, 21);
+}
+.alertModal {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(2, 185, 124);
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  position: fixed;
+  right: 0;
+  border-radius: 10px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0% {
+    background-color: rgb(106, 214, 178);
+    right: 0px;
+  }
+  25% {
+    background-color: rgb(0, 199, 133);
+    right: 100px;
+  }
+}
+.alertModal h4 {
+  margin-top: 10px;
+}

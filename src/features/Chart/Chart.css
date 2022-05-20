@@ -1,0 +1,14 @@
+.ChartPage {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+.ChartPage h3 {
+  font-size: 30px;
+  color: rgb(255, 115, 22);
+  text-align: center;
+}
+.Chart-Container {
+  display: flex;
+  justify-content: center;
+}
