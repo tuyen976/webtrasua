@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webtrasua/static/css/main.76fc4647.css",
+    "main.js": "/webtrasua/static/js/main.7370c5e5.js",
+    "static/js/787.1c145d19.chunk.js": "/webtrasua/static/js/787.1c145d19.chunk.js",
+    "index.html": "/webtrasua/index.html",
+    "main.76fc4647.css.map": "/webtrasua/static/css/main.76fc4647.css.map",
+    "main.7370c5e5.js.map": "/webtrasua/static/js/main.7370c5e5.js.map",
+    "787.1c145d19.chunk.js.map": "/webtrasua/static/js/787.1c145d19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76fc4647.css",
+    "static/js/main.7370c5e5.js"
+  ]
+}
